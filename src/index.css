@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans Tamil', 'Noto Serif Tamil', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-kural-bg: #FBF7EF;
+  --color-kural-card: #FFFDF8;
+  --color-kural-ink: #1F2A2B;
+  --color-kural-teal: #0F5F5C;
+  --color-kural-teal-dark: #0A4341;
+  --color-kural-teal-light: #E7F3F2;
+  --color-kural-turmeric: #F2B705;
+  --color-kural-turmeric-light: #FEF8E6;
+  --color-kural-dispute: #B3261E;
+  --color-kural-dispute-light: #FCE8E6;
+  --color-kural-confirmed: #1E6B3A;
+  --color-kural-confirmed-light: #E8F5EC;
+  --color-kural-border: #E8E2D5;
+}
+
+*, ::before, ::after {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', 'Noto Serif Tamil', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background-color: #FBF7EF;
+  color: #1F2A2B;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars and subtle shadows for realistic card finish */
+.kural-card-shadow {
+  box-shadow: 0 1px 3px rgba(31, 42, 43, 0.05), 0 1px 2px rgba(31, 42, 43, 0.03);
+}
+
+.kural-receipt-border {
+  background-image: repeating-linear-gradient(45deg, #1E6B3A 0, #1E6B3A 10px, transparent 0, transparent 20px);
+}

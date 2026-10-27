@@ -1,0 +1,6 @@
+{
+  "name": "Kural - Worker Concern & Resolution Receipt Platform",
+  "description": "Multilingual worker concern and workplace accountability platform aligned with UN SDG 8, featuring the Worker Resolution Receipt verification flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
